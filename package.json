@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "npx babel index.js --output-file index.js --out-dir dist --source-maps && node dist/index"
+  },
+  "name": "csv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "json2csv": "^3.11.5"
+  }
+}
